@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "SoarX",
-  description: "SoarX",
+  title: "Snatak",
+  description: "Snatak",
 };
 
 export default async function AuthLayout({

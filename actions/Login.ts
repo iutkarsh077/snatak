@@ -42,7 +42,6 @@ export async function LoginServer(data: DataLogin) {
 
         const myCookie = cookieStore.set("Snatak", token, {
             maxAge: 15 * 24 * 60 * 60,
-            domain: "localhost",
             priority: "medium",
         });
 
